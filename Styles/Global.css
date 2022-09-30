@@ -1,11 +1,11 @@
 :root {
-  /* Colors */
+  /*? Colors */
   --primary-color: #0099ff;
   --secondary-color: #333333;
   --white-color: #ffffff;
   --gray-color: #999999;
   --black-color: #494949;
-  /* Fonts */
+  /*! Fonts */
   --inter-bold: inter-bold;
   --inter-semi-bold: inter-bold;
   --inter-medium: inter-medium;
@@ -24,6 +24,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: var(--inter-regular);
   height: 100vh;
 }
 
@@ -63,4 +64,17 @@ h6 {
   font-family: var(--inter-bold);
   font-size: 2rem;
   line-height: 2.2rem;
+}
+
+/*! Setting Properties After CSS Reset */
+
+.btn {
+  width: 20rem;
+  height: 5.3rem;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--white-color);
+  font-family: var(--inter-regular);
+  font-size: 1.8rem;
 }
