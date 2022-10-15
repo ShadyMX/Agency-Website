@@ -163,6 +163,13 @@ h6 {
 
 /* ! Header Introduction */
 
+.header-intro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4.5rem;
+}
+
 .header-intro__header {
 	max-width: 63rem;
 	margin-bottom: 3.2rem;
@@ -194,4 +201,12 @@ h6 {
 	color: var(--primary-color);
 	background-color: var(--white-color);
 	border: 0.1rem solid var(--primary-color);
+}
+
+.header-intro__img-wrapper {
+	width: 66rem;
+}
+
+.header-intro__img {
+	width: 100%;
 }
