@@ -3,7 +3,18 @@
 @media (max-width: 1200px) {
 }
 @media (max-width: 992px) {
-  /*? Navigation */
+	/*? Navigation */
+	.hamburger-menu {
+		display: flex;
+	}
+
+	.navigation__nav-links {
+		display: none;
+	}
+
+	.navigation__contact-btn {
+		display: none;
+	}
 }
 @media (max-width: 768px) {
 }
