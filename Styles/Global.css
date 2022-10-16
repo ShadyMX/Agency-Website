@@ -191,7 +191,16 @@ h6 {
 	justify-content: center;
 	color: var(--white-color);
 	background-color: var(--primary-color);
+	border: 0.1rem solid var(--primary-color);
 	margin-right: 1.6rem;
+	box-shadow: inset 0 0 0 var(--white-color);
+	transition: all 200ms ease-in-out;
+}
+
+.header-intro__buttons-wrapper-first-button:hover {
+	box-shadow: inset 200rem 0 0 var(--white-color);
+	color: var(--primary-color);
+	transform: translateY(-0.5rem);
 }
 
 .header-intro__buttons-wrapper-second-button {
@@ -201,6 +210,14 @@ h6 {
 	color: var(--primary-color);
 	background-color: var(--white-color);
 	border: 0.1rem solid var(--primary-color);
+	box-shadow: inset 0 0 0 var(--white-color);
+	transition: all 200ms ease-in-out;
+}
+
+.header-intro__buttons-wrapper-second-button:hover {
+	box-shadow: inset 20rem 0 0 var(--primary-color);
+	color: var(--white-color);
+	transform: translateY(-0.5rem);
 }
 
 .header-intro__img-wrapper {
