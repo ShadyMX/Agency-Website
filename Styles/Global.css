@@ -25,7 +25,9 @@ html {
 body {
 	font-size: 1.6rem;
 	font-family: var(--inter-regular);
-	height: 100vh;
+	min-height: 100vh;
+	/* user-select: none; */
+	/* scroll-behavior: smooth; */
 }
 
 /* Heading */
@@ -163,14 +165,31 @@ h6 {
 
 /* ! Header Introduction */
 
+.header-intro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4.5rem;
+}
+
+.header-intro__texts {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
 .header-intro__header {
 	max-width: 63rem;
 	margin-bottom: 3.2rem;
 }
 
 .header-intro__paragraph {
-	max-width: 55rem;
+	max-width: 58rem;
 	font-family: var(--inter-regular);
+	font-size: 1.8rem;
+	color: var(--secondary-color);
+	line-height: 2.8rem;
 	margin-bottom: 4rem;
 }
 
@@ -184,7 +203,16 @@ h6 {
 	justify-content: center;
 	color: var(--white-color);
 	background-color: var(--primary-color);
+	border: 0.1rem solid var(--primary-color);
 	margin-right: 1.6rem;
+	box-shadow: inset 0 0 0 var(--white-color);
+	transition: all 200ms ease-in-out;
+}
+
+.header-intro__buttons-wrapper-first-button:hover {
+	box-shadow: inset 200rem 0 0 var(--white-color);
+	color: var(--primary-color);
+	transform: translateY(-0.5rem);
 }
 
 .header-intro__buttons-wrapper-second-button {
@@ -194,4 +222,21 @@ h6 {
 	color: var(--primary-color);
 	background-color: var(--white-color);
 	border: 0.1rem solid var(--primary-color);
+	box-shadow: inset 0 0 0 var(--white-color);
+	transition: all 200ms ease-in-out;
+}
+
+.header-intro__buttons-wrapper-second-button:hover {
+	box-shadow: inset 20rem 0 0 var(--primary-color);
+	color: var(--white-color);
+	transform: translateY(-0.5rem);
+}
+
+.header-intro__img-wrapper {
+	width: 66rem;
+}
+
+.header-intro__img {
+	width: 100%;
+	height: 100%;
 }
