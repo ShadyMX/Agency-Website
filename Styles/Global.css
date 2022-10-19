@@ -201,6 +201,7 @@ h6 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	position: relative;
 	color: var(--white-color);
 	background-color: var(--primary-color);
 	border: 0.1rem solid var(--primary-color);
@@ -210,7 +211,7 @@ h6 {
 }
 
 .header-intro__buttons-wrapper-first-button:hover {
-	box-shadow: inset 200rem 0 0 var(--white-color);
+	box-shadow: inset 20rem 0 0 var(--white-color);
 	color: var(--primary-color);
 	transform: translateY(-0.5rem);
 }
