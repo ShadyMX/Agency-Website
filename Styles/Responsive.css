@@ -25,6 +25,32 @@
 	.header-intro__buttons-wrapper-second-button {
 		width: 18rem;
 	}
+
+	/* ? Services */
+	.service-providers__texts-second-title {
+		font-size: 4.5rem;
+	}
+	.service-providers__texts-sub-text {
+		max-width: 58rem;
+	}
+
+	/* ! About us */
+	.aboutus-section__img-wrapper {
+		width: 60rem;
+	}
+
+	.aboutus-section__second-title {
+		font-size: 4.5rem;
+	}
+
+	.aboutus-section__first-text,
+	.aboutus-section__second-text {
+		max-width: 62rem;
+	}
+
+	.aboutus-section__button {
+		width: 18rem;
+	}
 }
 
 @media (max-width: 992px) {
@@ -67,6 +93,39 @@
 		line-height: 2.2rem;
 		text-align: center;
 	}
+
+	/* ? Services */
+	.service-providers__texts-second-title {
+		font-size: 4rem;
+	}
+	.service-providers__texts-sub-text {
+		max-width: 55rem;
+	}
+
+	/* ! About us */
+	.aboutus-section {
+		flex-direction: column;
+	}
+
+	.aboutus-section__img-wrapper {
+		width: 55rem;
+		margin-bottom: 5rem;
+	}
+
+	.aboutus-section__texts {
+		align-items: center;
+		text-align: center;
+	}
+
+	.aboutus-section__second-title {
+		font-size: 4rem;
+	}
+
+	.aboutus-section__first-text,
+	.aboutus-section__second-text {
+		max-width: 51rem;
+		font-size: 1.5rem;
+	}
 }
 
 @media (max-width: 768px) {
@@ -83,6 +142,30 @@
 	.header-intro__paragraph {
 		font-size: 1.4rem;
 		max-width: 43rem;
+	}
+
+	/* ? Services */
+	.service-providers__texts-second-title {
+		font-size: 3.5rem;
+	}
+	.service-providers__texts-sub-text {
+		font-size: 1.5rem;
+		max-width: 45rem;
+	}
+
+	/* ! About us */
+	.aboutus-section__img-wrapper {
+		width: 50rem;
+	}
+
+	.aboutus-section__second-title {
+		font-size: 3.8rem;
+	}
+
+	.aboutus-section__first-text,
+	.aboutus-section__second-text {
+		max-width: 45rem;
+		font-size: 1.4rem;
 	}
 }
 
@@ -111,5 +194,29 @@
 		width: 16rem;
 		height: 4.8rem;
 		font-size: 1.6rem;
+	}
+
+	/* ? Services */
+	.service-providers__texts-second-title {
+		font-size: 3rem;
+	}
+	.service-providers__texts-sub-text {
+		font-size: 1.2rem;
+		max-width: 30rem;
+	}
+
+	/* ! About us */
+	.aboutus-section__img-wrapper {
+		width: 45rem;
+	}
+
+	.aboutus-section__second-title {
+		font-size: 3.5rem;
+	}
+
+	.aboutus-section__first-text,
+	.aboutus-section__second-text {
+		max-width: 40rem;
+		font-size: 1.2rem;
 	}
 }
