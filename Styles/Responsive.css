@@ -1,4 +1,21 @@
 @media (max-width: 1400px) {
+	/* ? Services */
+	.service-providers__cards-holder {
+		justify-content: center;
+		gap: 1.5rem;
+	}
+
+	/* ? Expert Team */
+	.expert-team__card-holder {
+		justify-content: center;
+		column-gap: 1.5rem;
+	}
+
+	/* ! Portfolio */
+	.portfolio-recent-works {
+		justify-content: center;
+		column-gap: 3rem;
+	}
 }
 
 @media (max-width: 1200px) {
@@ -24,6 +41,48 @@
 	.header-intro__buttons-wrapper-first-button,
 	.header-intro__buttons-wrapper-second-button {
 		width: 18rem;
+	}
+
+	/* ? Services */
+	.service-providers__texts-second-title {
+		font-size: 4.5rem;
+	}
+
+	.service-providers__texts-sub-text {
+		max-width: 55rem;
+	}
+
+	/* ! About us */
+	.aboutus-section__img-wrapper {
+		width: 60rem;
+	}
+
+	.aboutus-section__second-title {
+		font-size: 4.5rem;
+	}
+
+	.aboutus-section__first-text,
+	.aboutus-section__second-text {
+		max-width: 62rem;
+	}
+
+	.aboutus-section__button {
+		width: 18rem;
+	}
+
+	/* ? Expert Team */
+	.expert-team__upper-texts-second-title {
+		font-size: 4.5rem;
+	}
+
+	/* ! Portfolio */
+	.portfolio__second-title {
+		font-size: 4.5rem;
+	}
+
+	.portfolio__sub-text {
+		max-width: 58rem;
+		font-size: 1.6rem;
 	}
 }
 
@@ -67,6 +126,59 @@
 		line-height: 2.2rem;
 		text-align: center;
 	}
+
+	/* ? Services */
+	.service-providers__texts-second-title {
+		font-size: 4rem;
+	}
+	.service-providers__texts-sub-text {
+		max-width: 50rem;
+	}
+
+	/* ! About us */
+	.aboutus-section {
+		flex-direction: column;
+	}
+
+	.aboutus-section__img-wrapper {
+		width: 55rem;
+		margin-bottom: 5rem;
+	}
+
+	.aboutus-section__texts {
+		align-items: center;
+		text-align: center;
+	}
+
+	.aboutus-section__second-title {
+		font-size: 4rem;
+	}
+
+	.aboutus-section__first-text,
+	.aboutus-section__second-text {
+		max-width: 51rem;
+		font-size: 1.5rem;
+	}
+
+	/* ? Expert Team */
+	.expert-team__upper-texts-second-title {
+		font-size: 4rem;
+	}
+
+	.expert-team__upper-texts-sub-par {
+		max-width: 40rem;
+		font-size: 1.5rem;
+	}
+
+	/* ! Portfolio */
+	.portfolio__second-title {
+		font-size: 4rem;
+	}
+
+	.portfolio__sub-text {
+		max-width: 48rem;
+		font-size: 1.5rem;
+	}
 }
 
 @media (max-width: 768px) {
@@ -84,13 +196,53 @@
 		font-size: 1.4rem;
 		max-width: 43rem;
 	}
+
+	/* ? Services */
+	.service-providers__texts-second-title {
+		font-size: 3.5rem;
+	}
+	.service-providers__texts-sub-text {
+		font-size: 1.5rem;
+		max-width: 44rem;
+	}
+
+	/* ! About us */
+	.aboutus-section__img-wrapper {
+		width: 50rem;
+	}
+
+	.aboutus-section__second-title {
+		font-size: 3.8rem;
+	}
+
+	.aboutus-section__first-text,
+	.aboutus-section__second-text {
+		max-width: 45rem;
+		font-size: 1.4rem;
+	}
+
+	/* ? Expert Team */
+	.expert-team__upper-texts-second-title {
+		font-size: 3.8rem;
+	}
+
+	.expert-team__upper-texts-sub-par {
+		max-width: 36rem;
+		font-size: 1.4rem;
+	}
+
+	/* ! Portfolio */
+	.portfolio__second-title {
+		font-size: 3.8rem;
+	}
+
+	.portfolio__sub-text {
+		max-width: 40rem;
+		font-size: 1.4rem;
+	}
 }
 
 @media (max-width: 576px) {
-	/*? Navigation */
-	.logo {
-		width: 16rem;
-	}
 	/* ! Header Introduction */
 	.header-intro__img-wrapper {
 		width: 90%;
@@ -111,5 +263,49 @@
 		width: 16rem;
 		height: 4.8rem;
 		font-size: 1.6rem;
+	}
+
+	/* ? Services */
+	.service-providers__texts-second-title {
+		font-size: 3rem;
+	}
+	.service-providers__texts-sub-text {
+		font-size: 1.2rem;
+		max-width: 30rem;
+	}
+
+	/* ! About us */
+	.aboutus-section__img-wrapper {
+		width: 100%;
+	}
+
+	.aboutus-section__second-title {
+		font-size: 3.5rem;
+	}
+
+	.aboutus-section__first-text,
+	.aboutus-section__second-text {
+		max-width: 40rem;
+		font-size: 1.2rem;
+	}
+
+	/* ? Expert Team */
+	.expert-team__upper-texts-second-title {
+		font-size: 3.5rem;
+	}
+
+	.expert-team__upper-texts-sub-par {
+		max-width: 34rem;
+		font-size: 1.4rem;
+	}
+
+	/* ! Portfolio */
+	.portfolio__second-title {
+		font-size: 3.5rem;
+	}
+
+	.portfolio__sub-text {
+		max-width: 32rem;
+		font-size: 1.2rem;
 	}
 }
