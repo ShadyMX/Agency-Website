@@ -1,4 +1,15 @@
 @media (max-width: 1400px) {
+	/* ? Services */
+	.service-providers__cards-holder {
+		justify-content: center;
+		gap: 1.5rem;
+	}
+
+	/* ? Expert Team */
+	.expert-team__card-holder {
+		justify-content: center;
+		column-gap: 1.5rem;
+	}
 }
 
 @media (max-width: 1200px) {
@@ -30,8 +41,9 @@
 	.service-providers__texts-second-title {
 		font-size: 4.5rem;
 	}
+
 	.service-providers__texts-sub-text {
-		max-width: 58rem;
+		max-width: 55rem;
 	}
 
 	/* ! About us */
@@ -50,6 +62,11 @@
 
 	.aboutus-section__button {
 		width: 18rem;
+	}
+
+	/* ? Expert Team */
+	.expert-team__upper-texts-second-title {
+		font-size: 4.5rem;
 	}
 }
 
@@ -99,7 +116,7 @@
 		font-size: 4rem;
 	}
 	.service-providers__texts-sub-text {
-		max-width: 55rem;
+		max-width: 50rem;
 	}
 
 	/* ! About us */
@@ -126,6 +143,16 @@
 		max-width: 51rem;
 		font-size: 1.5rem;
 	}
+
+	/* ? Expert Team */
+	.expert-team__upper-texts-second-title {
+		font-size: 4rem;
+	}
+
+	.expert-team__upper-texts-sub-par {
+		max-width: 40rem;
+		font-size: 1.5rem;
+	}
 }
 
 @media (max-width: 768px) {
@@ -150,7 +177,7 @@
 	}
 	.service-providers__texts-sub-text {
 		font-size: 1.5rem;
-		max-width: 45rem;
+		max-width: 44rem;
 	}
 
 	/* ! About us */
@@ -167,13 +194,19 @@
 		max-width: 45rem;
 		font-size: 1.4rem;
 	}
+
+	/* ? Expert Team */
+	.expert-team__upper-texts-second-title {
+		font-size: 3.8rem;
+	}
+
+	.expert-team__upper-texts-sub-par {
+		max-width: 36rem;
+		font-size: 1.4rem;
+	}
 }
 
 @media (max-width: 576px) {
-	/*? Navigation */
-	.logo {
-		width: 16rem;
-	}
 	/* ! Header Introduction */
 	.header-intro__img-wrapper {
 		width: 90%;
@@ -207,7 +240,7 @@
 
 	/* ! About us */
 	.aboutus-section__img-wrapper {
-		width: 45rem;
+		width: 100%;
 	}
 
 	.aboutus-section__second-title {
@@ -218,5 +251,15 @@
 	.aboutus-section__second-text {
 		max-width: 40rem;
 		font-size: 1.2rem;
+	}
+
+	/* ? Expert Team */
+	.expert-team__upper-texts-second-title {
+		font-size: 3.5rem;
+	}
+
+	.expert-team__upper-texts-sub-par {
+		max-width: 34rem;
+		font-size: 1.4rem;
 	}
 }
