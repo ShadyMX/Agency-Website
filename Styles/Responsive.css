@@ -16,6 +16,12 @@
 		justify-content: center;
 		column-gap: 3rem;
 	}
+
+	/* ? Customer Testimonials */
+	.customer-testimonials-tweets {
+		justify-content: center;
+		column-gap: 2.4rem;
+	}
 }
 
 @media (max-width: 1200px) {

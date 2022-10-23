@@ -553,3 +553,78 @@ h6 {
 	background-color: var(--primary-color);
 	color: var(--white-color);
 }
+
+/* ? Customer Testimonials */
+.customer-testimonials {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.customer-testimonials__upper-texts {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 4.8rem;
+}
+
+.customer-testimonials__upper-texts-title {
+	margin-bottom: 2.4rem;
+}
+
+.customer-testimonials__upper-texts-subpar {
+	color: var(--black-color);
+}
+
+.customer-testimonials-tweets {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	row-gap: 2.4rem;
+}
+
+.customer-testimonials-tweetbox {
+	width: 42rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--white-color);
+	border-radius: 0.5rem;
+	box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.1);
+	padding: 2.5rem 4rem 2.5rem 4rem;
+}
+
+.customer-testimonials-inner-tweetbox-stars {
+	margin-bottom: 2.4rem;
+}
+
+.customer-testimonials-inner-tweetbox-message {
+	word-wrap: break-word;
+	color: var(--black-color);
+	line-height: 1.5;
+	margin-bottom: 2.4rem;
+}
+
+.customer-testimonials-inner-tweetbox-user {
+	display: flex;
+	align-items: center;
+}
+
+.customer-testimonials-inner-tweetbox-user-img {
+	width: 5.6rem;
+}
+
+.customer-testimonials-inner-tweetbox-user-info {
+	margin-left: 2rem;
+}
+
+.customer-testimonials-inner-tweetbox-user-info-username {
+	font-family: var(--inter-semi-bold);
+	font-size: 1.6rem;
+	color: var(--secondary-color);
+}
+
+.customer-testimonials-inner-tweetbox-user-info-role {
+	font-family: var(--inter-medium);
+	/* font-size: 1.4rem; */
+	color: var(--black-color);
+	margin-top: 0.7rem;
+}
