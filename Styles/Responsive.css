@@ -10,6 +10,12 @@
 		justify-content: center;
 		column-gap: 1.5rem;
 	}
+
+	/* ! Portfolio */
+	.portfolio-recent-works {
+		justify-content: center;
+		column-gap: 3rem;
+	}
 }
 
 @media (max-width: 1200px) {
@@ -67,6 +73,16 @@
 	/* ? Expert Team */
 	.expert-team__upper-texts-second-title {
 		font-size: 4.5rem;
+	}
+
+	/* ! Portfolio */
+	.portfolio__second-title {
+		font-size: 4.5rem;
+	}
+
+	.portfolio__sub-text {
+		max-width: 58rem;
+		font-size: 1.6rem;
 	}
 }
 
@@ -153,6 +169,16 @@
 		max-width: 40rem;
 		font-size: 1.5rem;
 	}
+
+	/* ! Portfolio */
+	.portfolio__second-title {
+		font-size: 4rem;
+	}
+
+	.portfolio__sub-text {
+		max-width: 48rem;
+		font-size: 1.5rem;
+	}
 }
 
 @media (max-width: 768px) {
@@ -202,6 +228,16 @@
 
 	.expert-team__upper-texts-sub-par {
 		max-width: 36rem;
+		font-size: 1.4rem;
+	}
+
+	/* ! Portfolio */
+	.portfolio__second-title {
+		font-size: 3.8rem;
+	}
+
+	.portfolio__sub-text {
+		max-width: 40rem;
 		font-size: 1.4rem;
 	}
 }
@@ -261,5 +297,15 @@
 	.expert-team__upper-texts-sub-par {
 		max-width: 34rem;
 		font-size: 1.4rem;
+	}
+
+	/* ! Portfolio */
+	.portfolio__second-title {
+		font-size: 3.5rem;
+	}
+
+	.portfolio__sub-text {
+		max-width: 32rem;
+		font-size: 1.2rem;
 	}
 }

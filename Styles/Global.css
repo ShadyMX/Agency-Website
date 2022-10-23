@@ -516,10 +516,26 @@ h6 {
 }
 
 .recent-works__card-insider-link {
+	display: inline-block;
 	font-family: var(--inter-medium);
 	font-size: 1.8rem;
 	color: var(--secondary-color);
 	text-decoration: none;
+}
+
+.recent-works__card-insider-link::after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0.3rem;
+	background-color: var(--primary-color);
+	border-radius: 5rem;
+	margin-top: 1rem;
+	transition: all 200ms ease-in-out;
+}
+
+.recent-works__card-insider-link:hover::after {
+	width: 100%;
 }
 
 .recent-works__card-insider-link-arrow {
