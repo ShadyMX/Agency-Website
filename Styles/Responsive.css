@@ -90,6 +90,15 @@
 		max-width: 58rem;
 		font-size: 1.6rem;
 	}
+
+	/* ? Customer Testimonials */
+	.customer-testimonials__upper-texts {
+		text-align: center;
+	}
+
+	.customer-testimonials__upper-texts-title {
+		font-size: 4.5rem;
+	}
 }
 
 @media (max-width: 992px) {
@@ -185,6 +194,15 @@
 		max-width: 48rem;
 		font-size: 1.5rem;
 	}
+
+	/* ? Customer Testimonials */
+	.customer-testimonials__upper-texts-title {
+		font-size: 4rem;
+	}
+
+	.customer-testimonials__upper-texts-subpar {
+		font-size: 1.5rem;
+	}
 }
 
 @media (max-width: 768px) {
@@ -246,6 +264,15 @@
 		max-width: 40rem;
 		font-size: 1.4rem;
 	}
+
+	/* ? Customer Testimonials */
+	.customer-testimonials__upper-texts-title {
+		font-size: 3.5rem;
+	}
+
+	.customer-testimonials__upper-texts-subpar {
+		font-size: 1.4rem;
+	}
 }
 
 @media (max-width: 576px) {
@@ -286,7 +313,7 @@
 	}
 
 	.aboutus-section__second-title {
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 
 	.aboutus-section__first-text,
@@ -297,7 +324,7 @@
 
 	/* ? Expert Team */
 	.expert-team__upper-texts-second-title {
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 
 	.expert-team__upper-texts-sub-par {
@@ -307,11 +334,20 @@
 
 	/* ! Portfolio */
 	.portfolio__second-title {
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 
 	.portfolio__sub-text {
 		max-width: 32rem;
+		font-size: 1.2rem;
+	}
+
+	/* ? Customer Testimonials */
+	.customer-testimonials__upper-texts-title {
+		font-size: 3rem;
+	}
+
+	.customer-testimonials__upper-texts-subpar {
 		font-size: 1.2rem;
 	}
 }
