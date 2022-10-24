@@ -637,9 +637,14 @@ h6 {
 	background-color: var(--secondary-color);
 	border-radius: 0.5rem;
 	margin-top: 5rem;
-	margin-bottom: 5rem;
 	padding-left: 10rem;
 	padding-right: 10rem;
+}
+
+.cta-box__left-contents {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
 .cta-box__left-contents-title {
