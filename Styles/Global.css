@@ -627,3 +627,34 @@ h6 {
 	color: var(--black-color);
 	margin-top: 0.7rem;
 }
+
+/* ! CTA */
+.cta-box {
+	height: 32rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--secondary-color);
+	border-radius: 0.5rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	padding-left: 10rem;
+	padding-right: 10rem;
+}
+
+.cta-box__left-contents-title {
+	color: var(--white-color);
+	margin-bottom: 3rem;
+}
+
+.cta-box__left-contents-text {
+	color: var(--white-color);
+	max-width: 47rem;
+	font-size: 1.8rem;
+	line-height: 1.5;
+}
+
+.cta-box__button {
+	color: var(--white-color);
+	background-color: var(--primary-color);
+}
