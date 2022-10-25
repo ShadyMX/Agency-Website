@@ -685,7 +685,7 @@ footer {
 	color: var(--black-color);
 }
 
-.logo-wrapper {
+.footer-logo-wrapper {
 	margin-bottom: 3.2rem;
 }
 
@@ -712,6 +712,11 @@ footer {
 	border-radius: 0.5rem;
 	box-shadow: 0.1rem 0.1rem 0.5rem 0.01rem var(--gray-color);
 	cursor: pointer;
+}
+
+.footer__menup-holder {
+	display: flex;
+	column-gap: 10rem;
 }
 
 .footer__title {
