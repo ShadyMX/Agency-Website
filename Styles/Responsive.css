@@ -16,6 +16,12 @@
 		justify-content: center;
 		column-gap: 3rem;
 	}
+
+	/* ? Customer Testimonials */
+	.customer-testimonials-tweets {
+		justify-content: center;
+		column-gap: 2.4rem;
+	}
 }
 
 @media (max-width: 1200px) {
@@ -83,6 +89,29 @@
 	.portfolio__sub-text {
 		max-width: 58rem;
 		font-size: 1.6rem;
+	}
+
+	/* ? Customer Testimonials */
+	.customer-testimonials__upper-texts {
+		text-align: center;
+	}
+
+	.customer-testimonials__upper-texts-title {
+		font-size: 4.5rem;
+	}
+
+	/* ! CTA */
+	.cta-box {
+		padding-left: 7rem;
+		padding-right: 7rem;
+	}
+
+	.cta-box__left-contents-title {
+		font-size: 3rem;
+	}
+
+	.cta-box__left-contents-text {
+		max-width: 45rem;
 	}
 }
 
@@ -179,6 +208,41 @@
 		max-width: 48rem;
 		font-size: 1.5rem;
 	}
+
+	/* ? Customer Testimonials */
+	.customer-testimonials__upper-texts-title {
+		font-size: 4rem;
+	}
+
+	.customer-testimonials__upper-texts-subpar {
+		font-size: 1.5rem;
+	}
+
+	/* ! CTA */
+	.cta-box {
+		height: 27rem;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: unset;
+		padding-right: unset;
+	}
+
+	.cta-box__left-contents {
+		align-items: center;
+	}
+
+	.cta-box__left-contents {
+		text-align: center;
+		margin-bottom: 3rem;
+	}
+
+	.cta-box__left-contents-text {
+		font-size: 1.6rem;
+	}
+
+	.cta-box__button {
+		width: 18rem;
+	}
 }
 
 @media (max-width: 768px) {
@@ -240,6 +304,35 @@
 		max-width: 40rem;
 		font-size: 1.4rem;
 	}
+
+	/* ? Customer Testimonials */
+	.customer-testimonials__upper-texts-title {
+		font-size: 3.5rem;
+	}
+
+	.customer-testimonials__upper-texts-subpar {
+		font-size: 1.4rem;
+	}
+
+	/* ! CTA */
+	.cta-box {
+		height: 25rem;
+	}
+
+	.cta-box__left-contents-title {
+		font-size: 2.8rem;
+	}
+
+	.cta-box__left-contents-text {
+		font-size: 1.4rem;
+		max-width: 37rem;
+	}
+
+	.cta-box__button {
+		font-size: 1.6rem;
+		width: 18rem;
+		height: 4.5rem;
+	}
 }
 
 @media (max-width: 576px) {
@@ -280,7 +373,7 @@
 	}
 
 	.aboutus-section__second-title {
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 
 	.aboutus-section__first-text,
@@ -291,7 +384,7 @@
 
 	/* ? Expert Team */
 	.expert-team__upper-texts-second-title {
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 
 	.expert-team__upper-texts-sub-par {
@@ -301,11 +394,45 @@
 
 	/* ! Portfolio */
 	.portfolio__second-title {
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 
 	.portfolio__sub-text {
 		max-width: 32rem;
 		font-size: 1.2rem;
+	}
+
+	/* ? Customer Testimonials */
+	.customer-testimonials__upper-texts-title {
+		font-size: 3rem;
+	}
+
+	.customer-testimonials__upper-texts-subpar {
+		font-size: 1.2rem;
+	}
+
+	/* ! CTA */
+	.cta-box {
+		height: 22rem;
+	}
+
+	.cta-box__left-contents-title {
+		font-size: 2.4rem;
+		margin-bottom: 2rem;
+	}
+
+	.cta-box__left-contents-text {
+		font-size: 1.2rem;
+		max-width: 31rem;
+	}
+
+	.cta-box__left-contents {
+		margin-bottom: 2rem;
+	}
+
+	.cta-box__button {
+		font-size: 1.6rem;
+		width: 15rem;
+		height: 4.5rem;
 	}
 }
